@@ -20,7 +20,7 @@ public class SeeTest {
     @Before
     public void setUp(){
         driver = new MobileWebDriver(host, port, projectBaseDirectory, "xml", "reports", "simple_test1");
-        eyes.setApiKey("9RkMajXrzS1Zu110oTWQps102CHiPRPmeyND99E9iL0G7yAc110");
+        eyes.setApiKey("your applitools api key");
         eyes.open(driver, "Login Example", "SeeTest");
     }
 
